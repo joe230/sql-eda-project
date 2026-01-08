@@ -208,4 +208,5 @@ JOIN DIM_STORES st ON s.store_id = st.store_id
 JOIN DIM_CITIES ci ON st.city_id = ci.city_id;
 
 -- Ejemplo para ver el historial de compra de un cliente
-SELECT * FROM VIEW_CLIENT_SALES_SEARCH WHERE Cliente = 'Cliente 25'; -- Hay Cliente del 1 al 50
+SELECT * FROM VIEW_CLIENT_SALES_SEARCH WHERE Client = 'Cliente 25'; -- Hay Cliente del 1 al 50
+
